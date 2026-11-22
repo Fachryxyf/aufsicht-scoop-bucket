@@ -1,13 +1,13 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Fachryxyf/aufsicht-releases/releases/download/v0.1.0/aufsicht-v0.1.0-windows-x86_64.zip",
-      "hash": "b807f5af95c59841a7642321d0d08040b7985217d9e73d0febb8b8b6415979be"
+      "url": "https://github.com/Fachryxyf/aufsicht-releases/releases/download/v0.1.1/aufsicht-v0.1.1-windows-x86_64.zip",
+      "hash": "e4ac64cba5ca0889e8220a196bd9efbf71131e31f74d42d72c59e7b265d841c1"
     },
     "arm64": {
-      "url": "https://github.com/Fachryxyf/aufsicht-releases/releases/download/v0.1.0/aufsicht-v0.1.0-windows-aarch64.zip",
-      "hash": "d67dfd95aa13ab494a0b562d664502e3a37eaf19f3df3dfbdeb1b51ac8ba0ad2"
+      "url": "https://github.com/Fachryxyf/aufsicht-releases/releases/download/v0.1.1/aufsicht-v0.1.1-windows-aarch64.zip",
+      "hash": "8073c89b47696806ad9d67b0035557a7de6be67a6c3171d6eefad303299aabe3"
     }
   },
   "bin": [
