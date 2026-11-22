@@ -1,0 +1,48 @@
+{
+  "version": "v0.1.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/Fachryxyf/aufsicht-releases/releases/download/vv0.1.0/aufsicht-vv0.1.0-windows-x86_64.zip",
+      "hash": "6561a731100271cbb1a822e22fe53e04f2e0d5985aeccd21cc5c1dd16b19841d"
+    },
+    "arm64": {
+      "url": "https://github.com/Fachryxyf/aufsicht-releases/releases/download/vv0.1.0/aufsicht-vv0.1.0-windows-aarch64.zip",
+      "hash": "1322cb85d3cf60e258a9cb5f3df723483b1816424333bf18d8b07f5417c286b6"
+    }
+  },
+  "bin": [
+    "aufsicht.exe",
+    "aufsichtd.exe",
+    "aufsicht-tui.exe"
+  ],
+  "checkver": {
+    "url": "https://aufsicht.dev/latest",
+    "regex": "([0-9.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/Fachryxyf/aufsicht-releases/releases/download/v$version/aufsicht-v$version-windows-x86_64.zip",
+        "hash": {
+          "url": "https://github.com/Fachryxyf/aufsicht-releases/releases/download/v$version/SHA256SUMS",
+          "regex": ".*$basename.*?([a-fA-F0-9]{64})"
+        }
+      },
+      "arm64": {
+        "url": "https://github.com/Fachryxyf/aufsicht-releases/releases/download/v$version/aufsicht-v$version-windows-aarch64.zip",
+        "hash": {
+          "url": "https://github.com/Fachryxyf/aufsicht-releases/releases/download/v$version/SHA256SUMS",
+          "regex": ".*$basename.*?([a-fA-F0-9]{64})"
+        }
+      }
+    },
+    "bin": [
+      "aufsicht.exe",
+      "aufsichtd.exe",
+      "aufsicht-tui.exe"
+    ]
+  },
+  "license": "Proprietary",
+  "homepage": "https://aufsicht.dev",
+  "notes": "Aufsicht ships three executables: aufsicht (CLI), aufsichtd (API daemon on 127.0.0.1:7420) and aufsicht-tui (terminal UI). Embedding models are NOT bundled - mount or point them at a local models directory (see https://aufsicht.dev for details)."
+}
