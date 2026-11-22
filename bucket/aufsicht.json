@@ -3,11 +3,11 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/Fachryxyf/aufsicht-releases/releases/download/vv0.1.0/aufsicht-vv0.1.0-windows-x86_64.zip",
-      "hash": "6561a731100271cbb1a822e22fe53e04f2e0d5985aeccd21cc5c1dd16b19841d"
+      "hash": "97f2260d032a13e63adf05d2128ec45c54b523c655e1d7e3ed8f9fc378f33e43"
     },
     "arm64": {
       "url": "https://github.com/Fachryxyf/aufsicht-releases/releases/download/vv0.1.0/aufsicht-vv0.1.0-windows-aarch64.zip",
-      "hash": "1322cb85d3cf60e258a9cb5f3df723483b1816424333bf18d8b07f5417c286b6"
+      "hash": "18d0b99ea5830bd8af3e423c062efdf003a0f7af86630f208c1dda8d41f8f4ec"
     }
   },
   "bin": [
